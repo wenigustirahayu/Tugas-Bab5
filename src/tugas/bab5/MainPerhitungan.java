@@ -12,6 +12,9 @@ public class MainPerhitungan {
         int bil1 = in.nextInt();
         System.out.print("-Masukkan nilai 2 : ");
         int bil2 = in.nextInt();
+        System.out.println(" ");
+        Perhitungan.Penjumlahan(bil1, bil2);
+        Perhitungan.Pengurangan(bil1, bil2);
 
     }
 }
