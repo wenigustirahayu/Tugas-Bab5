@@ -15,6 +15,10 @@ public class MainPerhitungan {
         System.out.println(" ");
         Perhitungan.Penjumlahan(bil1, bil2);
         Perhitungan.Pengurangan(bil1, bil2);
+        Perhitungan k = new Perhitungan();
+        k.Perkalian(bil1, bil2);
+        Perhitungan b = new Perhitungan();
+        b.Pembagian(bil1, bil2);
 
     }
 }
