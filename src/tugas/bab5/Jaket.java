@@ -17,5 +17,17 @@ public class Jaket {
             System.out.println("Total Harga : " + harga);
         }
     }
+
+    public void hitungDiskonB(int beliB) {
+        if (beliB > 100) {
+            int harga = beliB * 120000;
+            System.out.println("Selamat, anda mendapatkan Diskon.");
+            System.out.println("Jaket B : Rp 120.000/pcs");
+            System.out.println("Total Harga: " + harga);
+        } else if (beliB <= 100) {
+            int harga = beliB * jaketB;
+            System.out.println("Total Harga: " + harga);
+        }
+    }
 }
 
