@@ -41,6 +41,17 @@ public class mainJaket {
                     System.out.println("===================================================================");
                     System.out.println(" ");
                     break;
+                case 3:
+                    System.out.println("");
+                    System.out.println("                           JAKET C                                 ");
+                    System.out.println("===================================================================");
+                    Jaket jC = new Jaket();
+                    System.out.print("Membeli Jaket C sebanyak : ");
+                    int beliC = in.nextInt();
+                    jC.hitungDiskonC(beliC);
+                    System.out.println("===================================================================");
+                    System.out.println(" ");
+                    break;
                
             }
         } while (pilihan != 0);
