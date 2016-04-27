@@ -56,7 +56,10 @@ public class mainJaket {
                     System.out.println("===================================================================");
                     System.out.println("                        Terima Kasih                          ");
                     break;
-               
+                default:
+                    System.out.println("Pilihan Tidak Tersedia");
+                    System.out.println(" ");
+                    break;
             }
         } while (pilihan != 0);
     }
