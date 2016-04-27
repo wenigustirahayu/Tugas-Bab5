@@ -19,7 +19,18 @@ public class mainJaket {
             System.out.print("Pilihan Jaket: ");
             pilihan = in.nextInt();
             switch (pilihan) {
-                
+                case 1:
+                    System.out.println("");
+                    System.out.println("                           JAKET A                                 ");
+                    System.out.println("===================================================================");
+                    Jaket jA = new Jaket();
+                    System.out.print("Membeli Jaket A sebanyak : ");
+                    int beliA = in.nextInt();
+                    jA.hitungDiskonA(beliA);
+                    System.out.println("===================================================================");
+                    System.out.println(" ");
+                    break;
+               
             }
         } while (pilihan != 0);
     }
