@@ -30,6 +30,17 @@ public class mainJaket {
                     System.out.println("===================================================================");
                     System.out.println(" ");
                     break;
+                case 2:
+                    System.out.println("");
+                    System.out.println("                           JAKET B                                 ");
+                    System.out.println("===================================================================");
+                    Jaket jB = new Jaket();
+                    System.out.print("Membeli Jaket B sebanyak : ");
+                    int belB = in.nextInt();
+                    jB.hitungDiskonB(belB);
+                    System.out.println("===================================================================");
+                    System.out.println(" ");
+                    break;
                
             }
         } while (pilihan != 0);
