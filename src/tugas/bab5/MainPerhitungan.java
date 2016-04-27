@@ -19,6 +19,7 @@ public class MainPerhitungan {
         k.Perkalian(bil1, bil2);
         Perhitungan b = new Perhitungan();
         b.Pembagian(bil1, bil2);
-
+        Perhitungan s = new Perhitungan();
+        s.Sederhana(bil1, bil2);
     }
 }
