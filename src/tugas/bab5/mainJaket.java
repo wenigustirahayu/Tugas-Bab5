@@ -52,6 +52,10 @@ public class mainJaket {
                     System.out.println("===================================================================");
                     System.out.println(" ");
                     break;
+                case 0:
+                    System.out.println("===================================================================");
+                    System.out.println("                        Terima Kasih                          ");
+                    break;
                
             }
         } while (pilihan != 0);
