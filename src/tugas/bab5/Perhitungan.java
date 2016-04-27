@@ -24,5 +24,24 @@ public class Perhitungan {
         System.out.println("[4]... Hasil pembagian      : " + bagi);
     }
 
-   
+    public void Sederhana(int a, int b) {
+        pembilang = a;
+        penyebut = b;
+        int temp, A, B;
+        if (penyebut == 0) {
+            return;
+        }
+        A = (pembilang < penyebut) ? penyebut : pembilang;
+        B = (pembilang < penyebut) ? pembilang : penyebut;
+        while (B != 0) {
+            temp = A % B;
+            A = B;
+            B = temp;
+        }
+        int hsl = pembilang /= A;
+        int hsl2 = penyebut /= A;
+        System.out.print("[5]... Hasil penyederhanaan : " + (hsl));
+        System.out.print("/");
+        System.out.println(hsl2);
+    }
 }
