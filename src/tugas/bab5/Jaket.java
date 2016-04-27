@@ -29,5 +29,17 @@ public class Jaket {
             System.out.println("Total Harga: " + harga);
         }
     }
+
+    public void hitungDiskonC(int beliC) {
+        if (beliC > 100) {
+            int harga = beliC * 160000;
+            System.out.println("Selamat, anda mendapatkan Diskon.");
+            System.out.println("Jaket C : Rp 160.000/pcs");
+            System.out.println("Total Harga: " + harga);
+        } else if (beliC <= 100) {
+            int harga = beliC * jaketC;
+            System.out.println("Total Harga: " + harga);
+        }
+    }
 }
 
